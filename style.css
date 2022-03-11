@@ -1,6 +1,7 @@
 * {
-    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-family: Optima, 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin: 0;
 }
 
 
@@ -10,10 +11,9 @@ body {
 }
 
 .name {
-    font-size: 40px;
+    font-size: 50px;
     padding: 10px;
-    margin-right: 40px;
-    color: snow;
+    color: #274c77;
     font-weight: bold;
 }
 .header {
@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     height: 80px;
     padding: 20px 80px;
-    background-color:#53485B;
+    background-color:#B5838D;
     align-items: center;
 }
 
@@ -38,10 +38,11 @@ a {
 }
 
 .info {
-    padding: 20px;
+    padding: 30px 30px 10px 30px;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    color:#6D6875;
 }
 
 .container {
@@ -49,18 +50,18 @@ a {
 }
 
 .sidebar {
-    background-color: #38626B;
+    background-color: #F3DBCE;
     display: flex;
     height: 400px;
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
-    gap: 70px;
-    color:snow;
+    gap: 100px;
+    color:#6D6875;
 }
 
 .Head1 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -68,20 +69,22 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 300px;
 }
 
 .Button {
-    background-color:grey;
+    background-color:#8E93A4;
     padding: 5px;
     font-weight: bold;
-    max-width: 80px;
+    max-width: 100px;
     border-radius: 8px;
     text-align: center;
+    color: snow;
 }
 
 .image {
-    background-color: grey;
-    width: 400px;
+    background-color:#8E93A4;
+    width: 550px;
     height: 200px;
     border-radius: 20px;
 }
@@ -93,21 +96,59 @@ a {
     justify-content: center;
     display: flex;
     gap: 50px;
-    margin: 20px 80px;
+    margin: 20px 80px 35px 80px;
     padding: 10px;
     max-width: 1000;
 }
 
 .card {
-   background-color:whitesmoke;
-   padding: 10px;
+   padding: 12px;
    width: 150px;
+   height: 150px;
    border-radius: 15px;
+   border-color: #F3DBCE;
+   border-width: 3px;
+   border-style: solid;
+   color: #274c77;
+   text-align: center;
+}
+.cardhead{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #274c77;
 }
 
 .quote {
-    background-color: whitesmoke;
-    padding: 20px 100px;
-    border-radius: 20px;
+    background-color: #8E93A4;
+    color: snow;
+    padding: 100px 350px;
+    font-size: 30px;
 }
 
+.quotetext{
+    font-size: 20px;
+}
+
+.Author{
+    text-align: right; 
+    font-size: 25px; 
+    font-weight: bold;
+    padding: 20px 5px 0px 5px;
+}
+
+
+.bottombox {
+    padding: 30px 100px;
+    text-align: center;    
+}
+.words{
+    border-width: 3px;
+    border-color: #F3DBCE;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 30px 174px;
+    color:#274c77;
+
+}
